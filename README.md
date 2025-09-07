@@ -54,7 +54,7 @@ NumPy (BLAS):        0.004s (~94× faster)
 
 The script also generates a plot:
 
-![Performance Plot](perf_summary.png)
+![Performance Plot](docs/perf_summary.png)
 
 ---
 
