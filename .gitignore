@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Generated outputs (ignore by default)
+*.png
+*.csv
+*.zip
+
+# Allow README images/plots
+!docs/*.png
+
+# IDE configs
+.vscode/
+.idea/
