@@ -10,7 +10,7 @@ __pycache__/
 *.csv
 *.zip
 
-# Allow README images/plots
+# Allow images/plots for README
 !docs/*.png
 
 # IDE configs
