@@ -1,4 +1,4 @@
-# ⚡ Matrix Multiplication Benchmark
+# Matrix Multiplication Benchmark
 
 This project benchmarks different approaches to **matrix multiplication in Python**:
 
@@ -11,7 +11,7 @@ It compares execution times and speedup ratios, and generates both a **summary t
 
 ---
 
-## 🚀 Features
+## Features
 - Benchmarks multiple implementations side by side  
 - Prints results in a clear table format  
 - Saves a performance plot as `perf_summary.png`  
@@ -19,7 +19,7 @@ It compares execution times and speedup ratios, and generates both a **summary t
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install dependencies:
 
@@ -35,7 +35,7 @@ matplotlib
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the benchmark:
 
@@ -58,18 +58,18 @@ The script also generates a plot:
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 - Python **threads** do not speed up CPU-bound loops due to the **Global Interpreter Lock (GIL)**  
 - **Multiprocessing** gives real parallelism but introduces communication overhead  
 - **NumPy (BLAS)** is orders of magnitude faster thanks to optimized C/Fortran libraries  
 
 ---
 
-## 📜 License
+## License
 MIT License — feel free to fork, use, and adapt.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 - [NumPy](https://numpy.org/)  
 - [Matplotlib](https://matplotlib.org/)  
